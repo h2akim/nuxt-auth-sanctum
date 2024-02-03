@@ -13,5 +13,8 @@
 * [Middleware](usage/middleware/README.md)
   * [sanctum:auth](usage/middleware/sanctum-auth.md)
   * [sanctum:guest](usage/middleware/sanctum-guest.md)
-* [Error handling](usage/error-handling.md)
-* [Laravel API](usage/laravel-api.md)
+
+## Other
+
+* [Error handling](other/error-handling.md)
+* [Laravel API](other/laravel-api.md)
