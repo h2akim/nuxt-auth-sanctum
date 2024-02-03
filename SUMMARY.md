@@ -1,7 +1,9 @@
 # Table of contents
 
+## Getting Started
+
 * [Introduction](README.md)
-* [Installation](installation.md)
+* [Installation](getting-started/installation.md)
 
 ## Usage
 
