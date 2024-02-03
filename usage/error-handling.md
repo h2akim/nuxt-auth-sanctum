@@ -9,6 +9,8 @@ description: >-
 
 When Laravel returns an error of any kind (_403, 404, 500, etc_), the module will throw this as an exception that has a generic `Error` type.&#x20;
 
+### Error type check
+
 This is how you can check what type of error you received
 
 ```typescript
@@ -34,7 +36,11 @@ async function onCredentialsFormSubmit() {
 }
 ```
 
-Sometimes, it is not convenient, especially when it comes to validation errors in plenty of forms and components. Here you can get inspiration from error handling specifically for this case and implement it your way.
+Sometimes, it is not convenient, especially when it comes to validation errors in plenty of forms and components.&#x20;
+
+### Error helper
+
+Here you can get inspiration from error handling specifically for this case and implement it your way.
 
 Create a new composable `useApiError` with the following content:
 

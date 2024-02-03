@@ -18,8 +18,8 @@ description: >-
 
 **Note:** Before using this module, please make sure that you have already configured Laravel Sanctum on your backend. You can find more information about Laravel Sanctum [here](https://laravel.com/docs/10.x/sanctum#spa-authentication).
 
-<p align="center">
-  <a href="https://www.buymeacoffee.com/manchenkoff">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" data-size="original">
-  </a>
-</p>
+### Support
+
+If you like this module, please support the project to help me to maintain and improve it!
+
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" data-size="original">](https://www.buymeacoffee.com/manchenkoff)

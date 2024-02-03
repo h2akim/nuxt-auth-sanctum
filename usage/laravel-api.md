@@ -1,8 +1,12 @@
 # Laravel API
 
+### How-to
+
 The current module expects your Laravel API to be already configured to work with Sanctum-based authentication, [here you can check official documentation](https://laravel.com/docs/10.x/sanctum#spa-authentication) and find all necessary configurations.
 
 **We do not support token-based authentication!** You have to configure a cookie-based stateful authentication method.
+
+### Checklist
 
 Here is a quick checklist for your Laravel backend:
 

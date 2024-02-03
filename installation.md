@@ -4,7 +4,9 @@ description: Minimum required version of Nuxt - ^3.9.0.
 
 # Installation
 
-1. Add `nuxt-auth-sanctum` dependency to your project
+### Install package
+
+Add `nuxt-auth-sanctum` dependency to your project
 
 ```bash
 # Using pnpm
@@ -17,7 +19,9 @@ yarn add --dev nuxt-auth-sanctum
 npm install --save-dev nuxt-auth-sanctum
 ```
 
-2. Add `nuxt-auth-sanctum` to the `modules` section of `nuxt.config.ts`
+### Register module
+
+Add `nuxt-auth-sanctum` to the `modules` section of `nuxt.config.ts`
 
 ```typescript
 export default defineNuxtConfig({

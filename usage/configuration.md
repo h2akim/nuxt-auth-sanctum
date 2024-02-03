@@ -12,6 +12,8 @@ export default defineNuxtConfig({
 });
 ```
 
+### Available options
+
 For any additional configurations, you can adjust the next list of available parameters:
 
 | Parameter                   | Description                                                                         | Default value            |
@@ -33,6 +35,8 @@ For any additional configurations, you can adjust the next list of available par
 | redirect.onAuthOnly         | Route to redirect to when user has to be authenticated. If set to false, do nothing | `/login`                 |
 | redirect.onGuestOnly        | Route to redirect to when user has to be a guest. If set to false, do nothing       | `/`                      |
 
+### Overrides
+
 You can override any of these options in the `nuxt.config.ts` file:
 
 ```ts
@@ -48,9 +52,9 @@ export default defineNuxtConfig({
 });
 ```
 
-### Override runtime configuration
+### RuntimeConfig
 
-It is possible to override options via environment variables. It might be useful when you want to use `.env` file to provide `baseUrl` for Laravel API.
+Module configuration is exposed to `runtimeConfig` property of your Nuxt app, so you can override either in `sanctum` module config or `runtimeConfig.public.sanctum` property.
 
 ```ts
 export default defineNuxtConfig({
@@ -66,11 +70,15 @@ export default defineNuxtConfig({
 });
 ```
 
+### Environment variables
+
+It is possible to override options via environment variables too. It might be useful when you want to use `.env` file to provide `baseUrl` for Laravel API.
+
 And here is what it will look like in `.env` file:
 
 `NUXT_PUBLIC_SANCTUM_BASE_URL='http://localhost:80'`
 
-### Module configuration example
+### Configuration example
 
 Here is an example of a full module configuration
 
