@@ -2,7 +2,7 @@
 description: >-
   Error handling of API responses is not a part of this module since the main
   goal is to provide an authentication layer and configured API client, but on
-  this page, you can find useful hints and
+  this page, you can find useful hints.
 ---
 
 # Error handling
