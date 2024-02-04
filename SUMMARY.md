@@ -9,8 +9,8 @@
 
 * [Configuration](usage/configuration.md)
 * [Composables](usage/composables/README.md)
-  * [useSantumAuth](usage/composables/usesantumauth.md)
-  * [useSantumUser](usage/composables/usesantumuser.md)
+  * [useSanctumAuth](usage/composables/usesantumauth.md)
+  * [useSanctumUser](usage/composables/usesantumuser.md)
   * [useSanctumClient](usage/composables/usesanctumclient.md)
 * [Middleware](usage/middleware/README.md)
   * [sanctum:auth](usage/middleware/sanctum-auth.md)
